@@ -2,4 +2,5 @@
 Driver/
 .pytest_cache
 .idea
+report
 
