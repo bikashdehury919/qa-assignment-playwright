@@ -1,0 +1,44 @@
+INFO     utills.basepage:basepage.py:16 Navigated to https://magento.softwaretestingboard.com/
+INFO     utills.basepage:home_page.py:35 Hovered on menu: Women
+INFO     utills.basepage:home_page.py:35 Hovered on menu: Tops
+INFO     utills.basepage:home_page.py:38 Clicked on menu item: Jackets
+INFO     pageobject.product_page:basepage.py:160 Waiting for Magento loader to disappear...
+INFO     pageobject.product_page:basepage.py:162 Loading spinner disappeared.
+INFO     pageobject.product_page:product_page.py:29 Applying filter: SIZE → XS
+INFO     pageobject.product_page:product_page.py:48 Filter applied: SIZE → XS
+INFO     pageobject.product_page:product_page.py:29 Applying filter: COLOR → Blue
+INFO     pageobject.product_page:product_page.py:48 Filter applied: COLOR → Blue
+INFO     pageobject.product_page:product_page.py:29 Applying filter: Pattern → Solid
+INFO     pageobject.product_page:product_page.py:48 Filter applied: Pattern → Solid
+INFO     pageobject.product_page:product_page.py:29 Applying filter: Climate → Cold
+INFO     pageobject.product_page:product_page.py:48 Filter applied: Climate → Cold
+WARNING  pageobject.product_page:product_page.py:25 Skipping filter 'Style' due to invalid value: nan
+INFO     pageobject.product_page:product_page.py:67 Clicked first visible product.
+INFO     pageobject.product_page:product_page.py:77 Size selected: XS
+INFO     pageobject.product_page:product_page.py:87 Color selected: Blue
+INFO     pageobject.product_page:product_page.py:97 Quantity set to: 2
+INFO     pageobject.product_page:product_page.py:122 Stored product name: Juno Jacket
+INFO     pageobject.product_page:product_page.py:125 'Add to Cart' button clicked.
+INFO     pageobject.product_page:product_page.py:132 Expected success message: You added Juno Jacket to your shopping cart.
+INFO     pageobject.product_page:product_page.py:133 Actual success message: You added Juno Jacket to your shopping cart.
+INFO     pageobject.product_page:product_page.py:138 Success message verified.
+INFO     pageobject.product_page:product_page.py:153 Mini cart opened.
+INFO     pageobject.product_page:product_page.py:164 Proceeded to Checkout.
+INFO     pageobject.checkout_page:checkout_page.py:21 Country selected: Netherlands
+INFO     pageobject.checkout_page:checkout_page.py:33 Shipping address filled successfully.
+INFO     pageobject.checkout_page:basepage.py:160 Waiting for Magento loader to disappear...
+INFO     pageobject.checkout_page:basepage.py:162 Loading spinner disappeared.
+INFO     pageobject.checkout_page:checkout_page.py:65 Found 1 shipping method(s).
+INFO     pageobject.checkout_page:basepage.py:160 Waiting for Magento loader to disappear...
+INFO     pageobject.checkout_page:basepage.py:162 Loading spinner disappeared.
+INFO     pageobject.checkout_page:checkout_page.py:85 Next button clicked.
+INFO     pageobject.checkout_page:basepage.py:160 Waiting for Magento loader to disappear...
+INFO     pageobject.checkout_page:basepage.py:162 Loading spinner disappeared.
+INFO     pageobject.checkout_page:basepage.py:160 Waiting for Magento loader to disappear...
+INFO     pageobject.checkout_page:basepage.py:162 Loading spinner disappeared.
+INFO     pageobject.checkout_page:checkout_page.py:121 Discount Applied: -$30.8
+INFO     pageobject.checkout_page:checkout_page.py:122 Final Total: $133.2
+INFO     pageobject.place_order:place_order.py:17 🛒 Clicked on 'Place Order'.
+INFO     pageobject.place_order:place_order.py:21 Redirected to order success page.
+INFO     pageobject.place_order:place_order.py:27 Confirmation message: Thank you for your purchase!
+INFO     pageobject.place_order:place_order.py:32 🧾 Order Number: 000061250

@@ -1,0 +1,4 @@
+Subtotal: $198.0
+            Discount: -$39.6
+            Shipping: $10.0
+            Total: $168.4

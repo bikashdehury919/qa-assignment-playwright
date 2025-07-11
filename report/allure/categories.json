@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Regression",
+    "matchedStatuses": [
+      "passed",
+      "failed"
+    ]
+  },
+  {
+    "name": "Known Issues",
+    "matchedStatuses": [
+      "broken"
+    ],
+    "traceRegex": ".*known_issue.*"
+  }
+]

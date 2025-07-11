@@ -1,0 +1,5 @@
+#Add files you want to ignore
+Driver/
+.pytest_cache
+.idea
+

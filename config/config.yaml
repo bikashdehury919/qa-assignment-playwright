@@ -1,0 +1,28 @@
+environment:
+  browser: chromium
+  platform: Windows 10
+  tested_by: Bikash Dehury
+  headless: false
+
+urls:
+  base_url: "https://magento.softwaretestingboard.com/"
+
+credentials:
+  valid:
+    username: "TestAutomation"
+    password: "TestAutomation"
+
+
+timeouts:
+  page_load: 30000
+  element_wait: 10000
+
+reporting:
+  allure_report_dir: "report/allure"
+  screenshot_dir: "report/screenshots"
+
+executor:
+  name: "Local Machine"
+  type: "local"
+  url: "http://localhost:8080/"
+  build_order: 1

@@ -1,0 +1,6 @@
+{
+  "name": "Local Machine",
+  "type": "local",
+  "url": "http://localhost:8080/",
+  "build_order": 1
+}
